@@ -6,8 +6,7 @@ const nextConfig = {
       {
         protocol: 'https',
         hostname: 'cdn.shopify.com',
-        // Optional: pathname যদি নির্দিষ্ট পাথের ছবি লোড করতে চান
-        // pathname: '/s/files/**',
+        pathname: '/s/files/**', 
       },
     ],
   },
